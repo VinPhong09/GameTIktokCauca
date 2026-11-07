@@ -1,0 +1,6 @@
+{
+  "note": "Optional GLB/GLTF overrides. Files in /assets are served at http://localhost:3000/models/. Set a fish's 'model' field in Admin -> Fish (e.g. 'fish/golden-koi.glb'). Everything is procedural by default.",
+  "fish": {},
+  "cats": {},
+  "environment": {}
+}

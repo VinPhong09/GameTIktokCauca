@@ -1,0 +1,15 @@
+{
+  "name": "cat-fishing-live",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TikTok LIVE interactive 3D cat fishing game (Three.js + React + Node.js)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend run start",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test && npm --prefix frontend run typecheck",
+    "smoke": "node scripts/smoke-test.mjs"
+  }
+}

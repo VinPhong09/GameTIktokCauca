@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cat-fishing-live",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "backend", "run", "start"],
+      "port": 3000
+    },
+    {
+      "name": "cat-fishing-live-test",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set PORT=3010&& set DB_FILE=:memory:&& npm --prefix backend run start"],
+      "port": 3010
+    }
+  ]
+}

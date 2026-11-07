@@ -1,0 +1,28 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3000
+  },
+  "database": {
+    "file": "data/cat-fishing.sqlite",
+    "saveIntervalMs": 3000
+  },
+  "live": {
+    "defaultProvider": "mock",
+    "autoConnect": false,
+    "tiktok": {
+      "username": "",
+      "processInitialData": false,
+      "enableExtendedGiftInfo": false,
+      "signApiKey": ""
+    },
+    "baltik": {
+      "url": "ws://127.0.0.1:21213/",
+      "reconnectMs": 5000
+    }
+  },
+  "mock": {
+    "autoSimulateOnStart": false,
+    "eventsPerMinute": 40
+  }
+}
